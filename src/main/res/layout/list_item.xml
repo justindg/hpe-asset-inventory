@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/asset_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_camera"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/asset_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iPhone 6"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/serial_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABC123DEF456"
+            android:textSize="16dp"
+            android:textColor="#01A982"/>
+        <TextView
+            android:id="@+id/current_borrower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Currently borrowed by: Justin de Guzman | UX/M"
+            android:textSize="13dp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+</LinearLayout>
